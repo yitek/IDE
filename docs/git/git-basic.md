@@ -61,3 +61,8 @@ git remote add master https://gitee.com/yitec/gitrepo.git
 # 推送本地变更到远程仓库 #
 ```git push <远程主机名> <本地分支名>:<远程分支名>```
 ```git push origin master```
+> the remote end hung up unexpectedly 问题: 一次提交的文件太多太大，超出了git的默认大小。可以使用命令```git config http.postBuffer 52428800```或在.git/config文件中配置
+	```
+	[http]
+	postBuffer = 524288000
+	```
