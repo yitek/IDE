@@ -66,3 +66,4 @@ git remote add master https://gitee.com/yitec/gitrepo.git
 	[http]
 	postBuffer = 524288000
 	```
+> 没有上游分支问题: 调用命令```git push --set-upstream origin master```
