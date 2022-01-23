@@ -1,10 +1,12 @@
-# windows平台的下载与启动 #
+windows平台下安装启动nginx
+============================
+
 ## 下载与展开 ##
 + 官网地址: http://nginx.org/en/download.html
 + 下载后得到: D:\IDE\dist\nginx-1.21.1.zip
 + 解压到指定目录: D:\IDE\bin\nginx\nginx-1.21.1
 + 得到如下的目录与文件:
-![nginx展开后得到的文件与目录](img\nginx_extracted_dirs_and_files.png "")
+![nginx展开后得到的文件与目录](nginx-windows.img\nginx_extracted_dirs_and_files.png "")
 
 ## 检查配置 ##
 跳转到nginx所在目录 ： `cd D:\IDE\bin\nginx\nginx-1.21.1\`
@@ -36,3 +38,6 @@ nginx -c /usr/local/nginx/conf/nginx.conf
 > ***默认的nginx配置指定的是80端口，要先检查80端口是否被占用***
 
 [^1] [windows系统如何查看端口被占用、杀进程](https://jingyan.baidu.com/article/fdffd1f89a0c8af3e98ca10e.html)
+
+
+localhost/
